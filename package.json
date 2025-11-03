@@ -1,0 +1,24 @@
+{
+  "name": "pwl25-jwt-auth-project",
+  "version": "2.0.0",
+  "description": "Products REST API with JWT Authentication - Mini Project UTS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": ["express", "jwt", "authentication", "rest-api", "mysql"],
+  "author": "M. Bayu Aji",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
