@@ -49,3 +49,4 @@ module.exports = {
   authenticateToken,
   authorizeRole
 };
+

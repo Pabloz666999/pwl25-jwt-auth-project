@@ -14,7 +14,6 @@ app.use(cors());
 app.use(express.json());
 app.use(logger);
 
-// Routes
 app.get('/', (req, res) => {
   res.json({ 
     message: 'Welcome to Product CRUD API with JWT Authentication',

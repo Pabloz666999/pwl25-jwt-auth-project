@@ -11,3 +11,4 @@ router.put('/:id', authenticateToken, validateProduct, controller.updateProduct)
 router.delete('/:id', authenticateToken, authorizeRole('admin'), controller.deleteProduct);
 
 module.exports = router;
+
